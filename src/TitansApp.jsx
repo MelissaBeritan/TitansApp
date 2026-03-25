@@ -1,18 +1,18 @@
 import { Route, Routes } from "react-router-dom";
-import MarvelPage from "./heroes/pages/MarvelPage";
-import DcPage from "./heroes/pages/DcPage";
+import AtackPage from "./titans/pages/AtackPage";
+import ColossalPage from "./titans/pages/ColossalPage";
 import LoginPage from "./auth/pages/LoginPage";
 import HomePage from "./auth/pages/HomePage";
 import { Navbar } from "./router/AppRouter";
 
-export default function HeroesApp() {
+export default function TitansApp() {
     return (
         <>
         <Navbar/>
         <Routes>
-            <Route path="/" element={ <HomePage/> } />
-            <Route path="/marvel" element={<MarvelPage/> } />
-            <Route path="/dc" element={ <DcPage/> } />
+            <Route path="/" element={<HomePage />} />
+            <Route path="/atack" element={ <AtackPage/> } />
+            <Route path="/colossal" element={<ColossalPage/> } />
             <Route path="/login" element={ <LoginPage/> } />
         </Routes>
         </>

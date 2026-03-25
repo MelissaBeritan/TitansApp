@@ -9,7 +9,7 @@ export const Navbar = () => {
                 className="navbar-brand" 
                 to="/"
             >
-                Asociaciones
+                HomePage
             </Link>
 
             <div className="navbar-collapse">
@@ -17,16 +17,16 @@ export const Navbar = () => {
 
                     <NavLink 
                         className="nav-item nav-link" 
-                        to="/marvel"
+                        to="/atack"
                     >
-                        Marvel
+                        AtackPage
                     </NavLink>
 
                     <NavLink 
                         className="nav-item nav-link" 
-                        to="/dc"
+                        to="/colossal"
                     >
-                        DC
+                        ColossalPage
                     </NavLink>
                 </div>
             </div>
