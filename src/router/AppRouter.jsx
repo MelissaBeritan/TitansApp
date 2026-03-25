@@ -1,46 +1,21 @@
-import { Link, NavLink } from 'react-router-dom';
-import './stylesRouters.css'
+import { Route, Routes } from "react-router-dom";
+import { AtackPage, ColossalPage } from '../titans';
+import { LoginPage, HomePage } from '../auth';
+import { Navbar } from '../ui';
 
-export const Navbar = () => {
-    return (
-        <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
-            
-            <Link 
-                className="navbar-brand" 
-                to="/"
-            >
-                HomePage
-            </Link>
-
-            <div className="navbar-collapse">
-                <div className="navbar-nav">
-
-                    <NavLink 
-                        className="nav-item nav-link" 
-                        to="/atack"
-                    >
-                        AtackPage
-                    </NavLink>
-
-                    <NavLink 
-                        className="nav-item nav-link" 
-                        to="/colossal"
-                    >
-                        ColossalPage
-                    </NavLink>
-                </div>
-            </div>
-
-            <div className="navbar-collapse collapse w-100 order-3 dual-collapse2">
-                <ul className="navbar-nav ml-auto">
-                    <NavLink 
-                        className="nav-item nav-link" 
-                        to="/login"
-                    >
-                        Logout
-                    </NavLink>
-                </ul>
-            </div>
-        </nav>
-    )
+export default function AppRouter() {
+  return (
+    <>
+        <Navbar/>
+        <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/atack" element={ <AtackPage/> } />
+            <Route path="/colossal" element={<ColossalPage/> } />
+            <Route path="/login" element={ <LoginPage/> } />
+        </Routes>
+    </>
+  )
 }
+
+
+
