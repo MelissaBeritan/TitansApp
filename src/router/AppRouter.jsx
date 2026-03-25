@@ -3,7 +3,7 @@ import { AtackPage, ColossalPage } from '../titans';
 import { LoginPage, HomePage } from '../auth';
 import { Navbar } from '../ui';
 
-export default function AppRouter() {
+export function AppRouter() {
   return (
     <>
         <Navbar/>

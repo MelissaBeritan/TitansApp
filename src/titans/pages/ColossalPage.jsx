@@ -1,5 +1,5 @@
 
-export default function ColossalPage() {
+export function ColossalPage() {
   return (
     <div>ColossalPage</div>
   )

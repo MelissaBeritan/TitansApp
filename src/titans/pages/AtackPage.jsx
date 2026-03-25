@@ -1,5 +1,5 @@
 
-export default function AtackPage() {
+export function AtackPage() {
   return (
     <div>AtackPage</div>
   )
