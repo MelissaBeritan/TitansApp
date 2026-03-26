@@ -28,6 +28,12 @@ export const Navbar = () => {
                     >
                         ColossalPage
                     </NavLink>
+                    <NavLink 
+                        className="nav-item nav-link" 
+                        to="/search"
+                    >
+                        Buscar
+                    </NavLink>
                 </div>
             </div>
 
