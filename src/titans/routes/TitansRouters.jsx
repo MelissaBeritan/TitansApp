@@ -1,8 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import { Navbar } from "../../ui";
-import { AtackPage, ColossalPage, TitansPage } from "../pages";
-import { HomePage } from "../../auth";
-import SearchBar from "../../ui/components/SearchBar";
+import { PureTitanPage, SearchPage, ShiftingTitanPage, TitansPage } from "../pages";
 
 export default function TitansRouters() {
     return (
@@ -10,9 +8,9 @@ export default function TitansRouters() {
             <Navbar />
             <Routes>
             <Route path="/" element={<TitansPage/>} />
-            <Route path="/search" element={<SearchBar/>}/>
-            <Route path="/atack" element={ <AtackPage/> } />
-            <Route path="/colossal" element={<ColossalPage/> } />
+            <Route path="/search" element={<SearchPage/>}/>
+            <Route path="/pure" element={ <PureTitanPage/> } />
+            <Route path="/shifting" element={<ShiftingTitanPage/> } />
         </Routes>
       </>
   )

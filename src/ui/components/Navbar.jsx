@@ -9,7 +9,7 @@ export const Navbar = () => {
                 className="navbar-brand" 
                 to="/"
             >
-                HomePage
+                TitansPage
             </Link>
 
             <div className="navbar-collapse">
@@ -17,16 +17,16 @@ export const Navbar = () => {
 
                     <NavLink 
                         className="nav-item nav-link" 
-                        to="/atack"
+                        to="/puretitan"
                     >
-                        AtackPage
+                        PureTitanPage
                     </NavLink>
 
                     <NavLink 
                         className="nav-item nav-link" 
-                        to="/colossal"
+                        to="/shifting"
                     >
-                        ColossalPage
+                        ShiftingTitanPage
                     </NavLink>
                     <NavLink 
                         className="nav-item nav-link" 
