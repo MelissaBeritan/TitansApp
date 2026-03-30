@@ -17,7 +17,7 @@ export function LoginPage() {
         <form>
           <input value={userName} onChange={(e)=>setUserName(e.target.value)} type="text" placeholder="Nombre de usuario" />
           <input value={password} onChange={(e)=>setPassword(e.target.value)} type="text" placeholder="Contraseña"/>
-          <button onClick={onLogin} type="submit">Liogin</button>
+          <button onClick={onLogin} type="submit">Login</button>
         </form>
         
     </>

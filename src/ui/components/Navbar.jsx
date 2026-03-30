@@ -17,7 +17,7 @@ export const Navbar = () => {
 
                     <NavLink 
                         className="nav-item nav-link" 
-                        to="/puretitan"
+                        to="/pure"
                     >
                         PureTitanPage
                     </NavLink>

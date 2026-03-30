@@ -1,6 +1,8 @@
+import {TitanList} from "../components";
 
 export function PureTitanPage() {
+  const type = "pure";
   return (
-    <div>PureTitanPage</div>
+    <TitanList type={type}/>
   )
 }
