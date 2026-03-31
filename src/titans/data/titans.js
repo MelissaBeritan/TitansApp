@@ -51,7 +51,7 @@ export const titans = [
     "id": "aot-6",
     "titan": "Titán Martillo de Guerra",
     "type": "shifting",
-    "human_host": "Willy Tybur (Lara Tybur)",
+    "human_host": "Lara Tybur",
     "first_appearance": "Episodio 62",
     "abilities": "Creación de armas desde el suelo, jaula de endurecimiento, host oculto",
     "src":shiftingTitansImages.hammer_titan,
