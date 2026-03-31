@@ -11,9 +11,7 @@ export function TitanCard({ titan }) {
       <div className="titan-card-info">
         <h3 className="titan-card-name">{titan.titan}</h3>
         <p className="titan-card-host">{titan.human_host}</p>
-        <span className={`titan-card-type ${titan.type}`}>
-          {titan.type === "pure" ? "Titán Puro" : "Titán Cambiante"}
-        </span>
+        <button className={`titan-card-type ${titan.type}`}>Ver</button>
       </div>
     </div>
   );
