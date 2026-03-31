@@ -1,4 +1,5 @@
 import { pureTitanImages } from "../../assets/puretitans";
+import { shiftingTitansImages } from "../../assets/shiftingtitans";
 
 export const titans = [
   {
@@ -8,7 +9,7 @@ export const titans = [
     "human_host": "Eren Yeager",
     "first_appearance": "Episodio 8 (Revelación)",
     "abilities": "Fuerza, resistencia, búsqueda de la libertad",
-    "src":"../../assets/shiftingtitans/attack-titan.png",
+    "src":shiftingTitansImages.attack_titan,
   },
   {
     "id": "aot-2",
@@ -17,7 +18,7 @@ export const titans = [
     "human_host": "Reiner Braun",
     "first_appearance": "Episodio 2 (Primera aparición), Episodio 17 (Revelación)",
     "abilities": "Armadura natural, ariete, alta defensa",
-    "src":"../assets/shiftingtitans/armored-titan.png",
+    "src":shiftingTitansImages.armored_titan,
   },
   {
     "id": "aot-3",
@@ -26,7 +27,7 @@ export const titans = [
     "human_host": "Annie Leonhart",
     "first_appearance": "Episodio 14 (Primera aparición), Episodio 22 (Revelación)",
     "abilities": "Agilidad, endurecimiento parcial, convocación de titanes puros",
-    "src":"../assets/shiftingtitans/female-titan.png",
+    "src":shiftingTitansImages.female_titan,
   },
   {
     "id": "aot-4",
@@ -35,7 +36,7 @@ export const titans = [
     "human_host": "Zeke Yeager",
     "first_appearance": "Episodio 35",
     "abilities": "Lanzamiento preciso, control de titanes puros (con su sangre), fuerza bestial",
-    "src":"../assets/shiftingtitans/beast-titan.png",
+    "src":shiftingTitansImages.beast_titan,
   },
   {
     "id": "aot-5",
@@ -44,7 +45,7 @@ export const titans = [
     "human_host": "Porco Galliard / Ymir / Marcel",
     "first_appearance": "Episodio 37",
     "abilities": "Mandíbula destructora, garras, alta velocidad",
-    "src":"../assets/shiftingtitans/jaw-titan.png",
+    "src":shiftingTitansImages.jaw_titan,
   },
   {
     "id": "aot-6",
@@ -53,7 +54,7 @@ export const titans = [
     "human_host": "Willy Tybur (Lara Tybur)",
     "first_appearance": "Episodio 62",
     "abilities": "Creación de armas desde el suelo, jaula de endurecimiento, host oculto",
-    "src":"../assets/shiftingtitans/hammer-titan.png",
+    "src":shiftingTitansImages.hammer_titan,
   },
   {
     "id": "aot-7",
@@ -62,7 +63,7 @@ export const titans = [
     "human_host": "Armin Arlert / Bertolt Hoover",
     "first_appearance": "Episodio 1 (Primera aparición), Episodio 31 (Revelación)",
     "abilities": "Explosión de transformación, emisión de vapor, tamaño gigantesco",
-    "src":"../assets/shiftingtitans/colossal-titan.png",
+    "src":shiftingTitansImages.colossal_titan,
   },
   {
   "id": "aot-8",
@@ -72,7 +73,7 @@ export const titans = [
   "first_appearance": "Episodio 37 (Revelación)",
   "abilities": "Control de titanes puros, memoria de los súbditos de Ymir, modificación biológica, coordenadas",
   "description": "El Titán Fundador es el más poderoso de los Nueve Titanes. Eren Yeager lo obtiene tras contactar con su hermano Zeke y acceder a los caminos. Su forma combinada con el Titán de Ataque resulta en una criatura colosal de aspecto esquelético capaz de desatar el Rugido de la Tierra.",
-  "src": "../assets/shiftingtitans/eren-founding-titan.jpg"
+  "src":shiftingTitansImages.eren_founding_titan,
   },
 {
   "id": "aot-9",
@@ -82,7 +83,7 @@ export const titans = [
   "first_appearance": "Historias posteriores (Temporada 4 - Episodio 80+)",
   "abilities": "Origen de todos los titanes, creadora de los 9 titanes cambiantes, control absoluto sobre los súbditos de Ymir, poder casi divino",
   "description": "Ymir Fritz fue la primera titán, obteniendo su poder al hacer un pacto con un ser parasítico. Su titán medía aproximadamente 240 metros. Tras su muerte, sus 9 descendientes heredaron su poder, dando origen a los 9 Titanes Cambiantes. Su voluntad permanece en los caminos, donde construye titanes con arena para los titanes cambiantes.",
-  "src": "../assets/shiftingtitans/ymir_founding_titan.png"
+  "src": shiftingTitansImages.ymir_founding_titan,
   },
 {
   "id": "aot-10",
@@ -91,7 +92,7 @@ export const titans = [
   "human_host": "Desconocido",
   "first_appearance": "Temporada 4",
   "abilities": "Transporte de carga, gran resistencia, tamaño colosal, cruce de mares",
-  "src": "../assets/shiftingtitans/cart_titan.png"
+  "src": shiftingTitansImages.cart_titan,
 },
   {
     "id": "aot-pure-1",

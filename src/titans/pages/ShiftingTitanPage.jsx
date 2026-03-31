@@ -1,6 +1,8 @@
+import { TitanList } from "../components";
 
 export function ShiftingTitanPage() {
-  return (
-    <div>ShiftingTitanPage</div>
-  )
+  const type = "shifting";
+    return (
+      <TitanList type={type}/>
+    )
 }

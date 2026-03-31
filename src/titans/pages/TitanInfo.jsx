@@ -4,12 +4,11 @@ import {TitanDetail} from "../components/";
 import { useEffect, useState } from "react";
 
 export function TitanInfo() {
-  const { id } = useParams();
+  const { type, id } = useParams();
   const [titan, setTitan] = useState({});
 
   useEffect(() => {
     const titanFounded = getTitanById(id);
-    console.log('aaa',titanFounded);
     setTitan(titanFounded);
   }, [id]);
     

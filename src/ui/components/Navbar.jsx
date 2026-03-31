@@ -24,7 +24,7 @@ export const Navbar = () => {
 
                     <NavLink 
                         className="nav-item nav-link" 
-                        to="/shifting"
+                        to="/TitansApp/shifting"
                     >
                         ShiftingTitanPage
                     </NavLink>
