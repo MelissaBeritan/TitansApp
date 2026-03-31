@@ -89,7 +89,7 @@ export const titans = [
   "id": "aot-10",
   "titan": "Titán Carguero",
   "type": "shifting",
-  "human_host": "Desconocido",
+  "human_host": "Pieck",
   "first_appearance": "Temporada 4",
   "abilities": "Transporte de carga, gran resistencia, tamaño colosal, cruce de mares",
   "src": shiftingTitansImages.cart_titan,
