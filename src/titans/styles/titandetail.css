@@ -1,0 +1,111 @@
+.titan-detail-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+}
+
+.titan-detail-card {
+    max-width: 1200px;
+    width: 100%;
+    background: linear-gradient(135deg, #1e1e1e 0%, #2a2a2a 100%);
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+    animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.titan-detail-image-wrapper {
+    width: 100%;
+    height: 600px;  /* Aumentado de 400px a 600px */
+    overflow: hidden;
+    background: #000;
+}
+
+.titan-detail-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;  /* Cambiado de cover a contain para ver toda la imagen */
+    transition: transform 0.5s ease;
+}
+
+.titan-detail-image:hover {
+    transform: scale(1.02);
+}
+
+.titan-detail-info {
+    padding: 32px;
+}
+
+.titan-detail-name {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 32px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    border-bottom: 2px solid #ff6b6b;
+    padding-bottom: 16px;
+}
+
+.titan-detail-section {
+    margin-bottom: 24px;
+}
+
+.titan-detail-section h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ff6b6b;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.titan-detail-section p {
+    font-size: 1rem;
+    color: #ddd;
+    line-height: 1.6;
+}
+
+.titan-detail-abilities {
+    background: rgba(255, 107, 107, 0.1);
+    padding: 12px;
+    border-radius: 8px;
+    border-left: 3px solid #ff6b6b;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .titan-detail-image-wrapper {
+        height: 400px;  /* En móvil también más grande */
+    }
+    
+    .titan-detail-info {
+        padding: 20px;
+    }
+    
+    .titan-detail-name {
+        font-size: 1.8rem;
+    }
+    
+    .titan-detail-section h3 {
+        font-size: 1rem;
+    }
+    
+    .titan-detail-section p {
+        font-size: 0.9rem;
+    }
+}
