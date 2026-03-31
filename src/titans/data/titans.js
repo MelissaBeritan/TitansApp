@@ -1,3 +1,5 @@
+import { pureTitanImages } from "../../assets/puretitans";
+
 export const titans = [
   {
     "id": "aot-1",
@@ -5,7 +7,8 @@ export const titans = [
     "type": "shifting",
     "human_host": "Eren Yeager",
     "first_appearance": "Episodio 8 (Revelación)",
-    "abilities": "Fuerza, resistencia, búsqueda de la libertad"
+    "abilities": "Fuerza, resistencia, búsqueda de la libertad",
+    "src":"../../assets/shiftingtitans/attack-titan.png",
   },
   {
     "id": "aot-2",
@@ -13,7 +16,8 @@ export const titans = [
     "type": "shifting",
     "human_host": "Reiner Braun",
     "first_appearance": "Episodio 2 (Primera aparición), Episodio 17 (Revelación)",
-    "abilities": "Armadura natural, ariete, alta defensa"
+    "abilities": "Armadura natural, ariete, alta defensa",
+    "src":"../assets/shiftingtitans/armored-titan.png",
   },
   {
     "id": "aot-3",
@@ -21,7 +25,8 @@ export const titans = [
     "type": "shifting",
     "human_host": "Annie Leonhart",
     "first_appearance": "Episodio 14 (Primera aparición), Episodio 22 (Revelación)",
-    "abilities": "Agilidad, endurecimiento parcial, convocación de titanes puros"
+    "abilities": "Agilidad, endurecimiento parcial, convocación de titanes puros",
+    "src":"../assets/shiftingtitans/female-titan.png",
   },
   {
     "id": "aot-4",
@@ -29,7 +34,8 @@ export const titans = [
     "type": "shifting",
     "human_host": "Zeke Yeager",
     "first_appearance": "Episodio 35",
-    "abilities": "Lanzamiento preciso, control de titanes puros (con su sangre), fuerza bestial"
+    "abilities": "Lanzamiento preciso, control de titanes puros (con su sangre), fuerza bestial",
+    "src":"../assets/shiftingtitans/beast-titan.png",
   },
   {
     "id": "aot-5",
@@ -37,7 +43,8 @@ export const titans = [
     "type": "shifting",
     "human_host": "Porco Galliard / Ymir / Marcel",
     "first_appearance": "Episodio 37",
-    "abilities": "Mandíbula destructora, garras, alta velocidad"
+    "abilities": "Mandíbula destructora, garras, alta velocidad",
+    "src":"../assets/shiftingtitans/jaw-titan.png",
   },
   {
     "id": "aot-6",
@@ -45,7 +52,8 @@ export const titans = [
     "type": "shifting",
     "human_host": "Willy Tybur (Lara Tybur)",
     "first_appearance": "Episodio 62",
-    "abilities": "Creación de armas desde el suelo, jaula de endurecimiento, host oculto"
+    "abilities": "Creación de armas desde el suelo, jaula de endurecimiento, host oculto",
+    "src":"../assets/shiftingtitans/hammer-titan.png",
   },
   {
     "id": "aot-7",
@@ -53,31 +61,46 @@ export const titans = [
     "type": "shifting",
     "human_host": "Armin Arlert / Bertolt Hoover",
     "first_appearance": "Episodio 1 (Primera aparición), Episodio 31 (Revelación)",
-    "abilities": "Explosión de transformación, emisión de vapor, tamaño gigantesco"
+    "abilities": "Explosión de transformación, emisión de vapor, tamaño gigantesco",
+    "src":"../assets/shiftingtitans/colossal-titan.png",
   },
   {
-    "id": "aot-8",
-    "titan": "Titán Fundador",
-    "type": "shifting",
-    "human_host": "Eren Yeager / Frieda Reiss / Uri Reiss / Rod Reiss (intento fallido)",
-    "first_appearance": "Episodio 37 (Revelación)",
-    "abilities": "Control de titanes puros, memoria de los súbditos de Ymir, modificación biológica"
+  "id": "aot-8",
+  "titan": "Titán Fundador de Eren",
+  "type": "shifting",
+  "human_host": "Eren Yeager",
+  "first_appearance": "Episodio 37 (Revelación)",
+  "abilities": "Control de titanes puros, memoria de los súbditos de Ymir, modificación biológica, coordenadas",
+  "description": "El Titán Fundador es el más poderoso de los Nueve Titanes. Eren Yeager lo obtiene tras contactar con su hermano Zeke y acceder a los caminos. Su forma combinada con el Titán de Ataque resulta en una criatura colosal de aspecto esquelético capaz de desatar el Rugido de la Tierra.",
+  "src": "../assets/shiftingtitans/eren-founding-titan.jpg"
   },
-  {
-    "id": "aot-9",
-    "titan": "Titán de Eje / Caminante",
-    "type": "shifting",
-    "human_host": "Ymir Fritz (original, no jugable)",
-    "first_appearance": "Historias posteriores",
-    "abilities": "Original de los 9 titanes (rara vez listado en juegos)"
+{
+  "id": "aot-9",
+  "titan": "Titán Fundador (Ymir Fritz)",
+  "type": "shifting",
+  "human_host": "Ymir Fritz",
+  "first_appearance": "Historias posteriores (Temporada 4 - Episodio 80+)",
+  "abilities": "Origen de todos los titanes, creadora de los 9 titanes cambiantes, control absoluto sobre los súbditos de Ymir, poder casi divino",
+  "description": "Ymir Fritz fue la primera titán, obteniendo su poder al hacer un pacto con un ser parasítico. Su titán medía aproximadamente 240 metros. Tras su muerte, sus 9 descendientes heredaron su poder, dando origen a los 9 Titanes Cambiantes. Su voluntad permanece en los caminos, donde construye titanes con arena para los titanes cambiantes.",
+  "src": "../assets/shiftingtitans/ymir_founding_titan.png"
   },
+{
+  "id": "aot-10",
+  "titan": "Titán Carguero",
+  "type": "shifting",
+  "human_host": "Desconocido",
+  "first_appearance": "Temporada 4",
+  "abilities": "Transporte de carga, gran resistencia, tamaño colosal, cruce de mares",
+  "src": "../assets/shiftingtitans/cart_titan.png"
+},
   {
     "id": "aot-pure-1",
     "titan": "Titán sonriente",
     "type": "pure",
     "human_host": "Dina Fritz (transformada)",
     "first_appearance": "Episodio 1",
-    "abilities": "Persistencia, sonrisa fija, gran resistencia"
+    "abilities": "Persistencia, sonrisa fija, gran resistencia",
+    "src":pureTitanImages.smilingTitan,
   },
   {
     "id": "aot-pure-2",
@@ -85,7 +108,8 @@ export const titans = [
     "type": "pure",
     "human_host": "Rod Reiss",
     "first_appearance": "Episodio 53",
-    "abilities": "Tamaño gigantesco (120m), arrastre, calor extremo"
+    "abilities": "Tamaño gigantesco (120m), arrastre, calor extremo",
+    "src":pureTitanImages.rodReissTitan,
   },
   {
     "id": "aot-pure-3",
@@ -93,22 +117,25 @@ export const titans = [
     "type": "pure",
     "human_host": "Dot Pixis",
     "first_appearance": "Temporada 4 (Arco de Guerra de Shiganshina)",
-    "abilities": "Tamaño estándar, se le ve arrastrándose en la muralla"
+    "abilities": "Tamaño estándar, se le ve arrastrándose en la muralla",
+    "src":pureTitanImages.dotPixisTitan,
   },
   {
-    "id": "aot-pure-4",
-    "titan": "Titán de 4m (el que come a Thomas)",
-    "type": "pure",
-    "human_host": "Desconocido",
-    "first_appearance": "Episodio 5",
-    "abilities": "Mordedura rápida, tamaño mediano"
-  },
-  {
-    "id": "aot-pure-5",
-    "titan": "Titán de Connie (madre de Connie)",
-    "type": "pure",
-    "human_host": "Madre de Connie Springer",
-    "first_appearance": "Episodio 24",
-    "abilities": "Brazos pequeños, incapacidad de moverse bien"
-  }
+  "id": "aot-pure-4",
+  "titan": "Titán Ymir (forma pura)",
+  "type": "pure",
+  "human_host": "Ymir",
+  "first_appearance": "Episodio 10 (Flashback - 60 años como titán puro)",
+  "abilities": "Tamaño pequeño (5-7m), mandíbula pronunciada, caminata en cuatro patas, comportamiento salvaje",
+  "src":pureTitanImages.ymirPureTitan,
+},
+{
+  "id": "aot-pure-5",
+  "titan": "Titán que remata a Mike",
+  "type": "pure",
+  "human_host": "Desconocido",
+  "first_appearance": "Episodio 35",
+  "abilities": "Tamaño pequeño, ojos grandes y saltones, movilidad ágil.",
+  "src":pureTitanImages.titanThatFinishesMike,
+}
 ];

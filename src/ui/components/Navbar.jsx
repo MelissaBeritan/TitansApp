@@ -17,7 +17,7 @@ export const Navbar = () => {
 
                     <NavLink 
                         className="nav-item nav-link" 
-                        to="/pure"
+                        to="/TitansApp/pure"
                     >
                         PureTitanPage
                     </NavLink>

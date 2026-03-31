@@ -9,7 +9,7 @@ export default function TitansRouters() {
             <Routes>
             <Route path="/" element={<TitansPage/>} />
             <Route path="/search" element={<SearchPage/>}/>
-            <Route path="/pure" element={ <PureTitanPage/> } />
+            <Route path="/TitansApp/pure" element={ <PureTitanPage/> } />
             <Route path="/shifting" element={<ShiftingTitanPage/> } />
         </Routes>
       </>

@@ -1,0 +1,73 @@
+/* TitanCard.css */
+
+.titan-card {
+  background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+   max-width: 380px;  /* Ancho máximo */
+  min-width: 280px;  /* Ancho mínimo */
+  flex: 1 1 320px;  /* Flexibilidad para crecer */
+}
+
+.titan-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+.titan-card-image {
+ width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  display: block;
+  border-bottom: 3px solid;
+}
+
+.titan-card-image.pure {
+  border-bottom-color: #8b4513;
+}
+
+.titan-card-image.shifting {
+  border-bottom-color: #ff6b6b;
+}
+
+.titan-card-info {
+  padding: 16px;
+}
+
+.titan-card-name {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 0 0 8px 0;
+  color: #fff;
+  text-align: center;
+}
+
+.titan-card-host {
+  font-size: 0.85rem;
+  color: #aaa;
+  margin: 0 0 12px 0;
+  text-align: center;
+}
+
+.titan-card-type {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+}
+
+.titan-card-type.pure {
+  background: #8b4513;
+  color: #fff;
+}
+
+.titan-card-type.shifting {
+  background: #ff6b6b;
+  color: #fff;
+}
