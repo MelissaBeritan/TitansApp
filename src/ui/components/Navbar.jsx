@@ -9,7 +9,7 @@ export const Navbar = () => {
                 className="navbar-brand" 
                 to="/TitansApp"
             >
-                Todos
+                Inicio
             </Link>
 
             <div className="navbar-collapse">
