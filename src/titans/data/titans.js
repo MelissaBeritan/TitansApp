@@ -96,7 +96,7 @@ export const titans = [
 },
   {
     "id": "aot-pure-1",
-    "name": "Titán sonriente",
+    "titan": "Titán sonriente",
     "type": "pure",
     "human_host": "Dina Fritz (transformada)",
     "first_appearance": "Episodio 1",
@@ -105,7 +105,7 @@ export const titans = [
   },
   {
     "id": "aot-pure-2",
-    "name": "Titán de Rod Reiss",
+    "titan": "Titán de Rod Reiss",
     "type": "pure",
     "human_host": "Rod Reiss",
     "first_appearance": "Episodio 53",
@@ -114,7 +114,7 @@ export const titans = [
   },
   {
     "id": "aot-pure-3",
-    "name": "Titán de Dot Pixis",
+    "titan": "Titán de Dot Pixis",
     "type": "pure",
     "human_host": "Dot Pixis",
     "first_appearance": "Temporada 4 (Arco de Guerra de Shiganshina)",
@@ -123,7 +123,7 @@ export const titans = [
   },
   {
   "id": "aot-pure-4",
-  "name": "Titán Ymir (forma pura)",
+  "titan": "Titán Ymir (forma pura)",
   "type": "pure",
   "human_host": "Ymir",
   "first_appearance": "Episodio 10 (Flashback - 60 años como titán puro)",
@@ -132,7 +132,7 @@ export const titans = [
 },
 {
   "id": "aot-pure-5",
-  "name": "Titán que remata a Mike",
+  "titan": "Titán que remata a Mike",
   "type": "pure",
   "human_host": "Desconocido",
   "first_appearance": "Episodio 35",

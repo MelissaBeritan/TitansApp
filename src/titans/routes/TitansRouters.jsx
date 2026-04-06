@@ -7,11 +7,11 @@ export default function TitansRouters() {
       <>
         <Navbar />
         <Routes>
-          <Route path="/" element={<HomeTitansPage/>} />
-          <Route path="/search" element={<SearchPage/>}/>
+          <Route path="/TitansApp" element={<HomeTitansPage/>} />
+          <Route path="/TitansApp/search" element={<SearchPage/>}/>
           <Route path="/TitansApp/pure" element={<PureTitanPage />} />
           <Route path="/TitansApp/:type/TitanInfo/:id" element={<TitanInfo/>} />
-          <Route path="//TitansApp/shifting" element={<ShiftingTitanPage />} />
+          <Route path="/TitansApp/shifting" element={<ShiftingTitanPage />} />
         </Routes>
       </>
   )

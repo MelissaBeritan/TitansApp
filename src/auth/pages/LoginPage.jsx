@@ -9,10 +9,14 @@ export function LoginPage() {
   const onLogin = () => {
     console.log(password, ' ', userName);
     navigate('/');
-
   }
+
+  const onBack = () => {
+    navigate('/TitansApp/');
+  }
+
   return (
-    <>
+    <>  <button onClick={onBack}>Back</button>
         <h2>Login</h2>
         <form>
           <input value={userName} onChange={(e)=>setUserName(e.target.value)} type="text" placeholder="Nombre de usuario" />
